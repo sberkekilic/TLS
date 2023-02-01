@@ -1,2 +1,2 @@
-# TLS
- Trafik Levha Sorgulama (Traffic Sign Classification)
+# TRAFFIC SIGN CLASSIFICATION
+**Trafik Levha Sorgulama** veya **TLS**, **CNN** (convolutional neural network) algoritmasıyla hazırlanmış bir programdır. Programın amacı, resim yükleyerek ve **GTSRB** (German Traffic Sign Recognition Benchmark) dataset'ini kullanarak makineye öğrettiğimiz levhaları tanıyıp tanımamasını ölçer ve bu göre en uygun sonucu yazdırır. Böylece yüklediğimiz resimdeki levha sorgulanmış olur.
