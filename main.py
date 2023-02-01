@@ -31,7 +31,6 @@ for i in range(classes):
             image = Image.open(path + '\\'+ a)
             image = image.resize((30,30))
             image = np.array(image)
-            #sim = Image.fromarray(image)
             data.append(image)
             labels.append(i)
         except:
@@ -109,7 +108,7 @@ for img in imgs:
 
 X_test=np.array(data)
 
-pred = model.predict_classes(X_test)
+pred = model.predict(X_test)
 
 #Accuracy with the test data
 from sklearn.metrics import accuracy_score
